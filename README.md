@@ -1,4 +1,4 @@
-# A Cmake project template for C++ work
+# Cmake project template for C++ work
 I keep finding myself reusing the same cmake setup for projects. So, now a template repo.
 
 Note: this template is for a C++ library not executable, and the tools folder sets up a executable project.
@@ -18,7 +18,7 @@ Install the following dependencies:
 Clone the repository:
 
 ```
-git clone git@github.com:realliance/cmakeprojecttemplate.git
+git clone git@github.com:HartleyAHartley/cmakeprojecttemplate.git
 ```
 
 Run the following commands within the project directory (note that these commands are for ):

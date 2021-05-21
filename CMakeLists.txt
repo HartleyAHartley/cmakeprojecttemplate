@@ -58,7 +58,6 @@ get_target_property(${PROJECT_NAME}_sources ${PROJECT_NAME} SOURCES)
 target_link_libraries(${PROJECT_NAME} PRIVATE ${CMAKE_DL_LIBS})
 
 target_include_directories(${PROJECT_NAME} PUBLIC "${${PROJECT_NAME}_SOURCE_DIR}/include")
-target_include_directories(${PROJECT_NAME} PUBLIC "${${PROJECT_NAME}_SOURCE_DIR}/controllers")
 
 add_custom_target(
   check

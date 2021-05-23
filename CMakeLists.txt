@@ -20,7 +20,6 @@ if(PACKAGE_TESTS)
 endif()
 
 if(PACKAGE_TOOLS)
-  enable_testing()
   add_subdirectory(${${PROJECT_NAME}_SOURCE_DIR}/tools)
 endif()
 

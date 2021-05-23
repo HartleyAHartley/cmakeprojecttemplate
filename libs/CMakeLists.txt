@@ -7,8 +7,4 @@ FetchContent_Declare(
 # deprecation warning from release 1.10 will replace when
 # a new release tag is created
 
-FetchContent_GetProperties(googletest)
-if(NOT googletest_POPULATED)
-  FetchContent_Populate(googletest)
-  add_subdirectory(${googletest_SOURCE_DIR} ${googletest_BINARY_DIR})
-endif()
+FetchContent_MakeAvailable(googletest)

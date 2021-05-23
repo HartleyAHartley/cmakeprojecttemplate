@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.12...3.20)
+cmake_minimum_required(VERSION 3.14...3.20)
 set(CMAKE_CXX_STANDARD 20)
 include(FetchContent)
 set(PROJECT_NAME "testname")
